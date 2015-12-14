@@ -43,4 +43,17 @@ describe("Unit: CameraService (Mock)", function(){
         expect(scope.CamCtrl.imageURI).toBe('Image OK')
     });
     
+    
+    it('getPicture() should return a defaut image in case of failure', function() {
+        deferredOut = DEFERRED_KO;
+        
+        ctrl("CameraController as CamCtrl", {
+            $scope: scope,
+            CameraSrv: CameraSrvMock
+        });
+        
+        scope.CamCtrl.takePicture();
+        scope.$digest();
+        expect(scope.CamCtrl.imageURI).toBe('img/ionic.pngs')
+    });
 });
