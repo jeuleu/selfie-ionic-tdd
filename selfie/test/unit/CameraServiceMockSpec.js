@@ -54,6 +54,6 @@ describe("Unit: CameraService (Mock)", function(){
         
         scope.CamCtrl.takePicture();
         scope.$digest();
-        expect(scope.CamCtrl.imageURI).toBe('img/ionic.pngs')
+        expect(scope.CamCtrl.imageURI).toBe('img/ionic.png')
     });
 });

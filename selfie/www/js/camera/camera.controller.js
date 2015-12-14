@@ -19,11 +19,12 @@
                 saveToPhotoAlbum: false
             };
 
-                            CameraSrv.getPicture(options).then(function(resultImg) {
+            CameraSrv.getPicture(options).then(function(resultImg) {
                 console.log('takePicture OK: ' + resultImg);
                 vm.imageURI = resultImg;
             }, function(err) {
                 console.log('takePicture FAILED: ' + err);
+                vm.imageURI = 'img/ionic.png';
             });
         }
     }
