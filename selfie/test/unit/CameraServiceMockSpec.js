@@ -42,4 +42,5 @@ describe("Unit: CameraService (Mock)", function(){
         scope.$digest();
         expect(scope.CamCtrl.imageURI).toBe('Image OK')
     });
+    
 });
