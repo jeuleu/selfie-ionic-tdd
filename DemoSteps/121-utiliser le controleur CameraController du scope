@@ -1,0 +1,12 @@
+- on va utiliser le controlleur CameraControlleur
+
+
+    var ctrl, scope;
+
+    // inject the $controller and $rootScope services
+    beforeEach(inject(function($controller, $rootScope) {
+        scope = $rootScope.$new();
+        ctrl = $controller('CameraController as CamCtrl', {
+            $scope: scope
+        });
+    }));

@@ -1,0 +1,13 @@
+- définir la fonction CameraCtrl :
+
+>> ERROR Expected 'undefined' to be 'defined'
+
+    CameraCtrl.$inject = injectParams;
+    function CameraCtrl() {
+        /* jshint validthis: true */			
+        var vm = this;
+
+        vm.takePicture = function() {
+        }
+    }
+    

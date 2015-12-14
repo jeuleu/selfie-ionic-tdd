@@ -1,0 +1,14 @@
+ - Service Camera mocké
+ - créer fichier CameraServiceMock.js
+ 
+ 
+describe("Unit: CameraService (Mock)", function(){
+    var rootScope, scope, ctrl, CameraSrvMock;
+
+    var DEFERRED_OK = 0;
+    var DEFERRED_KO = 1;
+    var deferredOut = DEFERRED_OK;
+    
+    beforeEach(module('Selfie'));
+    
+});

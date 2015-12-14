@@ -1,0 +1,7 @@
+- création d'un projet vierge
+
+ionic start selfie blank
+cd selfie
+
+ionic platform add android
+ionic plugin add cordova-plugin-camera

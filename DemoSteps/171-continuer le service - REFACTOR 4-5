@@ -1,0 +1,17 @@
+- continuer l'écriture du service
+
+L'appli s'affiche correctement mais...
+>> ERROR  TypeError: 'null' is not an object
+
+    
+    /** Functions code */    
+    Camera.$inject = injectParams;
+    function Camera ($q) {
+        return {
+            getPicture: function(options) {
+            
+                return null;
+                
+            }
+        }
+    }

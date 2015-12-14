@@ -1,0 +1,6 @@
+- préparation de l'environnement de test
+
+npm install karma -–save-dev
+npm install karma-jasmine karma-chrome-launcher -–save-dev
+
+npm install angular-mocks --save-dev

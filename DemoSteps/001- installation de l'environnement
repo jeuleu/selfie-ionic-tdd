@@ -1,0 +1,6 @@
+- installation des outils (pré-requis)
+
+installation de node.js
+
+npm install -g cordova ionic
+npm install -g karma-cli phantomjs
