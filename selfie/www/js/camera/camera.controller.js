@@ -11,6 +11,7 @@
         var vm = this;
 
         vm.takePicture = function() {
+            vm.imageURI = "This is my selfie URI";
         }
     }
     
